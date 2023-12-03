@@ -1,4 +1,4 @@
-theme: jekyll-theme-architect
+theme: jekyll-theme-ARCHITECT
 # H1
 ## H2
 ### H3
