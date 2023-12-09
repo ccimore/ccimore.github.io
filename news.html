@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Summerfield 3 & 4</title>
+</head>
+<body>
+    <!--youtube tutorial - create website with video backgrground - traversy media-->
+    <section class="showcase">
+        <header>
+            <h2 class="logo"></h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="./East to West Post Chop.mp4" muted loop autoplay>Video</video>   
+
+        
+        <div class="overlay"></div>
+
+        <div class="news text">
+            <h2></h2>
+            <h3></h3>
+            <p><u>Parking Permits</u></p>
+            
+            <p>Please email summerfieldhoa@ymail.com for your parking permit(s).  
+                The HOA Board of Directors will be walking the property to assure 
+                vehicles have valid parking permits.  Vehicles without permits are subject to be towed.
+            </p>
+
+            <p><u>Dumpsters</u></p>
+            <p>We are aware that each month this is an issue, however, there continues to be violators 
+                leaving items outside the dumpster and filling the dumpster and the lid not closing. 
+                Again, there will be no warning, an automatic $100 fine for overfilling the dumpster 
+                and $500 for leaving items outside the dumpster. NO EXCEPTIONS! Homeowners, please 
+                inform your tenants.
+            </p>
+
+            <p><u>Laundry Appliances</u></p>
+            <p>The HOA will be replacing the washers and dryers in the units in the next few weeks.  
+                The appliances will no longer be free, there will be a charge for the washer and dryer.  
+                Details are still under review, just letting homeowners know, new appliances will be arriving.
+            </p>
+                
+        </div>
+        <ul class="social">
+            <li><a href="#"><img src="#" alt="">facebook</a></li>
+            <li><a href="#"><img src="#" alt="">twitter</a></li>
+            <li><a href="#"><img src="#" alt="">instagram</a></li>
+        </ul> 
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+
+      
+</body>
+</html>
