@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Summerfield 3 & 4</title>
+</head>
+<body>
+    <!--youtube tutorial - create website with video backgrground - traversy media-->
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Scottsdale</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="./East to West Post Chop.mp4" muted loop autoplay>Video</video>   
+
+        
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Summerfield 3 & 4</h2>
+            <h3>Our Desert Oasis</h3>            
+            <a href="./news.html">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="#"><img src="#" alt="">facebook</a></li>
+            <li><a href="#"><img src="#" alt="">twitter</a></li>
+            <li><a href="#"><img src="#" alt="">instagram</a></li>
+        </ul> 
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./news.html">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+    </script>
+   
+    
+</body>
+</html>
